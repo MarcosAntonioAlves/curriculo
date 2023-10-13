@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css";
-import Me from "../../assets/me-about.jpg";
+import Me from "../../assets/me-imag.png";
 import {FaAward} from "react-icons/fa";
 
 const about = () => {
@@ -29,9 +29,12 @@ const about = () => {
 
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Rem expedita est consequatur hic, voluptatibus vel dolorem facilis quia ab provident odio 
-            libero sapiente qui, suscipit a nisi laudantium nulla exercitationem.
+            I am a passionate front-end developer who thrives on turning creative ideas into interactive digital solutions. 
+            With a year of experience in the field, I am constantly seeking to learn and explore the latest 
+            technology trends to enhance my skills and create exceptional user experiences.
+            <br/>
+            I am a Front-End Developer with expertise in:
+             HTML, CSS, JavaScript, Mongo DB, React JS, Node JS, TypeScript
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
