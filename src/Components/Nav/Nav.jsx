@@ -8,13 +8,13 @@ import {BiMessageSquareDetail} from "react-icons/bi";
 import { useState } from 'react';
 
 const Navs = () => {
-  const [activeNave, setActiveNave] = useState("#");
+  const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNave("#")} className={activeNave === "#" ? "active" : ""}><AiOutlineHome/></a>
-      <a href="#about" onClick={() => setActiveNave("#about")} className={activeNave === "#about" ? "active" : ""}><AiOutlineUser/></a>
-      <a href="#experience" onClick={() => setActiveNave("#experience")} className={activeNave === "#experience" ? "active" : ""}><BiBookAlt/></a>
-      <a href="#contact" onClick={() => setActiveNave("#contact")} className={activeNave === "#contact" ? "active" : ""}><BiMessageSquareDetail/></a>
+      <a href="#" onClick={() => setActiveNav("#")} className={activeNave === "#" ? "active" : ""}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setActiveNav("#about")} className={activeNave === "#about" ? "active" : ""}><AiOutlineUser/></a>
+      <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNave === "#experience" ? "active" : ""}><BiBookAlt/></a>
+      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNave === "#contact" ? "active" : ""}><BiMessageSquareDetail/></a>
     </nav>
   )
 }
